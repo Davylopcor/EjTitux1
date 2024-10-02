@@ -42,6 +42,8 @@ Rosano:
                 case "3"://Cartas disponibles
                     break;
                 case "4"://Dar cartas
+                    System.out.println("\n¿Cuantas cartas deseas sacar de la baraja?");
+                    int ncartassolicitadas = sc.nextInt();
                     break;
                 case "5"://Montón de cartas
                     break;
